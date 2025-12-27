@@ -14,4 +14,5 @@ function updateAds() {
 	if (hideAd) height = $(window).height();
 	$(adElement)[hideAd ? "hide" : "show"]();
 	$("#content").height(height);
+
 }
